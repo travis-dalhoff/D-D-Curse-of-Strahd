@@ -1,0 +1,117 @@
+.fog {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/fog6.jpg");
+	background-size: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/dark_village2.jpg");
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	height: 30em;
+}
+
+.nav-group-1 {
+	text-align: center;
+	width: 33%;
+	margin-top: 4em;
+	color: white;
+}
+
+.description {
+	/*background-image: url("../img/cloud.jpg");*/
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 100%;
+	margin-top: 1em .2em 1em .2em;
+	padding: 0;
+    background-color: transparent;
+    opacity: .99;
+}
+
+.description p {
+	margin: 1.5em 1em 1em 1em;
+	font-family: 'UnifrakturCook', cursive;
+	font-size: 2em;
+	color: black;
+	text-shadow: 5px 5px 10px rgba(242,237,237,10);
+	/*background-color: #fff;
+	opacity: 0.5;*/
+}
+
+.nav-group-2 {
+	margin-top: 4em;
+	text-align: center;
+	width: 33%;
+}
+
+header {
+	margin-top: 0;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Fondamento', cursive;
+	font-size: 8em;
+	color: black;
+	text-shadow: 0 0 5px rgba(242,237,237,10);
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+header h2 {
+	text-align: center;
+	font-family: 'Fondamento', cursive;
+	font-size: 3em;
+	color: black;
+	text-shadow: 0 0 5px rgba(242,237,237,10);
+	margin-top: -.5em;
+	padding-top: -.5em;
+}
+
+header h3 {
+	text-align: center;
+	font-family: 'Fondamento', cursive;
+	font-size: 2em;
+	color: black;
+	text-shadow: 0 0 5px rgba(242,237,237,10);
+	margin-top: -.5em;
+	padding-top: -.5em;
+}
+
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	text-shadow: 0 0 5px rgba(242,237,237,10);
+	font-size: 1.5em;
+}
+
+li {
+	font-family: 'Fruktur', cursive;
+	font-size: 2em;
+	list-style: none;
+	margin: .5em 0em;
+	color: red;
+}
+
+#dice_link {
+	font-size: .75em;
+}
+

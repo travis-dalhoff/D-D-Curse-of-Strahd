@@ -1,0 +1,64 @@
+body {
+	background-image: url(../img/forest.jpg);
+	background-size: 100%;
+}
+
+header {
+	margin: 0;
+	size: 3em;
+	text-align: center;
+}
+
+.maps-wrapper {
+	display: flex;
+	margin-top: 10em;
+	justify-content: space-around;
+}
+
+.maps {
+	height: 20em;
+	width: 20em;
+}
+
+#baroviaregion {
+    height: 19em;
+    width: 30em;
+}
+
+#krezk {
+    height: 31em;
+    width: 25em;
+}
+
+#vallaki {
+    height: 15em;
+    width: 25em;
+}
+
+
+
+
+
+h1 {
+	margin: 0 auto;
+}
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+    margin-top: 5%;
+ height: 39em;
+	width: 60em;
+}
+
+#overlay p {
+ color:white;
